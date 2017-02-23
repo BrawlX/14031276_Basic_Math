@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B676B071E5609970072D9C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B676B061E5609970072D9C0 /* AppDelegate.swift */; };
+		8B676B091E5609970072D9C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B676B081E5609970072D9C0 /* ViewController.swift */; };
+		8B676B0C1E5609970072D9C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B676B0A1E5609970072D9C0 /* Main.storyboard */; };
+		8B676B0E1E5609970072D9C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B676B0D1E5609970072D9C0 /* Assets.xcassets */; };
+		8B676B111E5609970072D9C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B676B0F1E5609970072D9C0 /* LaunchScreen.storyboard */; };
+		8B676B1C1E5609970072D9C0 /* Basic_MathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B676B1B1E5609970072D9C0 /* Basic_MathTests.swift */; };
+		8B676B271E5609970072D9C0 /* Basic_MathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B676B261E5609970072D9C0 /* Basic_MathUITests.swift */; };
+		8B676B471E560A050072D9C0 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B676B351E560A050072D9C0 /* apple.png */; };
+		8B676B481E560A050072D9C0 /* number0.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B676B361E560A050072D9C0 /* number0.png */; };
+		8B676B491E560A050072D9C0 /* number1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B676B371E560A050072D9C0 /* number1.png */; };
+		8B676B4A1E560A050072D9C0 /* number2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B676B381E560A050072D9C0 /* number2.png */; };
+		8B676B4B1E560A050072D9C0 /* number3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B676B391E560A050072D9C0 /* number3.png */; };
+		8B676B4C1E560A050072D9C0 /* number4.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B676B3A1E560A050072D9C0 /* number4.png */; };
+		8B676B4D1E560A050072D9C0 /* number5.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B676B3B1E560A050072D9C0 /* number5.png */; };
+		8B676B4E1E560A050072D9C0 /* number6.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B676B3C1E560A050072D9C0 /* number6.png */; };
+		8B676B4F1E560A050072D9C0 /* number7.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B676B3D1E560A050072D9C0 /* number7.png */; };
+		8B676B501E560A050072D9C0 /* number8.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B676B3E1E560A050072D9C0 /* number8.png */; };
+		8B676B511E560A050072D9C0 /* number9.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B676B3F1E560A050072D9C0 /* number9.png */; };
+		8B676B521E560A050072D9C0 /* plate.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B676B401E560A050072D9C0 /* plate.png */; };
+		8B676B531E560A050072D9C0 /* applex3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B676B411E560A050072D9C0 /* applex3.png */; };
+		8B676B541E560A050072D9C0 /* applex2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B676B421E560A050072D9C0 /* applex2.png */; };
+		8B676B551E560A050072D9C0 /* plate_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B676B431E560A050072D9C0 /* plate_white.png */; };
+		8B676B561E560A050072D9C0 /* play_again.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B676B441E560A050072D9C0 /* play_again.png */; };
+		8B676B571E560A050072D9C0 /* star_kids.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B676B451E560A050072D9C0 /* star_kids.png */; };
+		8B676B581E560A050072D9C0 /* thumbs_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B676B461E560A050072D9C0 /* thumbs_up.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B676B181E5609970072D9C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B676AFB1E5609970072D9C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B676B021E5609970072D9C0;
+			remoteInfo = Basic_Math;
+		};
+		8B676B231E5609970072D9C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B676AFB1E5609970072D9C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B676B021E5609970072D9C0;
+			remoteInfo = Basic_Math;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B676B031E5609970072D9C0 /* Basic_Math.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Basic_Math.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B676B061E5609970072D9C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B676B081E5609970072D9C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B676B0B1E5609970072D9C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B676B0D1E5609970072D9C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B676B101E5609970072D9C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B676B121E5609970072D9C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B676B171E5609970072D9C0 /* Basic_MathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Basic_MathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B676B1B1E5609970072D9C0 /* Basic_MathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basic_MathTests.swift; sourceTree = "<group>"; };
+		8B676B1D1E5609970072D9C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B676B221E5609970072D9C0 /* Basic_MathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Basic_MathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B676B261E5609970072D9C0 /* Basic_MathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basic_MathUITests.swift; sourceTree = "<group>"; };
+		8B676B281E5609970072D9C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B676B351E560A050072D9C0 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
+		8B676B361E560A050072D9C0 /* number0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number0.png; sourceTree = "<group>"; };
+		8B676B371E560A050072D9C0 /* number1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number1.png; sourceTree = "<group>"; };
+		8B676B381E560A050072D9C0 /* number2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number2.png; sourceTree = "<group>"; };
+		8B676B391E560A050072D9C0 /* number3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number3.png; sourceTree = "<group>"; };
+		8B676B3A1E560A050072D9C0 /* number4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number4.png; sourceTree = "<group>"; };
+		8B676B3B1E560A050072D9C0 /* number5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number5.png; sourceTree = "<group>"; };
+		8B676B3C1E560A050072D9C0 /* number6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number6.png; sourceTree = "<group>"; };
+		8B676B3D1E560A050072D9C0 /* number7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number7.png; sourceTree = "<group>"; };
+		8B676B3E1E560A050072D9C0 /* number8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number8.png; sourceTree = "<group>"; };
+		8B676B3F1E560A050072D9C0 /* number9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number9.png; sourceTree = "<group>"; };
+		8B676B401E560A050072D9C0 /* plate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plate.png; sourceTree = "<group>"; };
+		8B676B411E560A050072D9C0 /* applex3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = applex3.png; sourceTree = "<group>"; };
+		8B676B421E560A050072D9C0 /* applex2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = applex2.png; sourceTree = "<group>"; };
+		8B676B431E560A050072D9C0 /* plate_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plate_white.png; sourceTree = "<group>"; };
+		8B676B441E560A050072D9C0 /* play_again.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_again.png; sourceTree = "<group>"; };
+		8B676B451E560A050072D9C0 /* star_kids.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_kids.png; sourceTree = "<group>"; };
+		8B676B461E560A050072D9C0 /* thumbs_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbs_up.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B676B001E5609970072D9C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B676B141E5609970072D9C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B676B1F1E5609970072D9C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B676AFA1E5609970072D9C0 = {
+			isa = PBXGroup;
+			children = (
+				8B676B341E560A050072D9C0 /* images */,
+				8B676B051E5609970072D9C0 /* Basic_Math */,
+				8B676B1A1E5609970072D9C0 /* Basic_MathTests */,
+				8B676B251E5609970072D9C0 /* Basic_MathUITests */,
+				8B676B041E5609970072D9C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B676B041E5609970072D9C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B676B031E5609970072D9C0 /* Basic_Math.app */,
+				8B676B171E5609970072D9C0 /* Basic_MathTests.xctest */,
+				8B676B221E5609970072D9C0 /* Basic_MathUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B676B051E5609970072D9C0 /* Basic_Math */ = {
+			isa = PBXGroup;
+			children = (
+				8B676B061E5609970072D9C0 /* AppDelegate.swift */,
+				8B676B081E5609970072D9C0 /* ViewController.swift */,
+				8B676B0A1E5609970072D9C0 /* Main.storyboard */,
+				8B676B0D1E5609970072D9C0 /* Assets.xcassets */,
+				8B676B0F1E5609970072D9C0 /* LaunchScreen.storyboard */,
+				8B676B121E5609970072D9C0 /* Info.plist */,
+			);
+			path = Basic_Math;
+			sourceTree = "<group>";
+		};
+		8B676B1A1E5609970072D9C0 /* Basic_MathTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B676B1B1E5609970072D9C0 /* Basic_MathTests.swift */,
+				8B676B1D1E5609970072D9C0 /* Info.plist */,
+			);
+			path = Basic_MathTests;
+			sourceTree = "<group>";
+		};
+		8B676B251E5609970072D9C0 /* Basic_MathUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B676B261E5609970072D9C0 /* Basic_MathUITests.swift */,
+				8B676B281E5609970072D9C0 /* Info.plist */,
+			);
+			path = Basic_MathUITests;
+			sourceTree = "<group>";
+		};
+		8B676B341E560A050072D9C0 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				8B676B351E560A050072D9C0 /* apple.png */,
+				8B676B361E560A050072D9C0 /* number0.png */,
+				8B676B371E560A050072D9C0 /* number1.png */,
+				8B676B381E560A050072D9C0 /* number2.png */,
+				8B676B391E560A050072D9C0 /* number3.png */,
+				8B676B3A1E560A050072D9C0 /* number4.png */,
+				8B676B3B1E560A050072D9C0 /* number5.png */,
+				8B676B3C1E560A050072D9C0 /* number6.png */,
+				8B676B3D1E560A050072D9C0 /* number7.png */,
+				8B676B3E1E560A050072D9C0 /* number8.png */,
+				8B676B3F1E560A050072D9C0 /* number9.png */,
+				8B676B401E560A050072D9C0 /* plate.png */,
+				8B676B411E560A050072D9C0 /* applex3.png */,
+				8B676B421E560A050072D9C0 /* applex2.png */,
+				8B676B431E560A050072D9C0 /* plate_white.png */,
+				8B676B441E560A050072D9C0 /* play_again.png */,
+				8B676B451E560A050072D9C0 /* star_kids.png */,
+				8B676B461E560A050072D9C0 /* thumbs_up.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B676B021E5609970072D9C0 /* Basic_Math */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B676B2B1E5609970072D9C0 /* Build configuration list for PBXNativeTarget "Basic_Math" */;
+			buildPhases = (
+				8B676AFF1E5609970072D9C0 /* Sources */,
+				8B676B001E5609970072D9C0 /* Frameworks */,
+				8B676B011E5609970072D9C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Basic_Math;
+			productName = Basic_Math;
+			productReference = 8B676B031E5609970072D9C0 /* Basic_Math.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B676B161E5609970072D9C0 /* Basic_MathTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B676B2E1E5609970072D9C0 /* Build configuration list for PBXNativeTarget "Basic_MathTests" */;
+			buildPhases = (
+				8B676B131E5609970072D9C0 /* Sources */,
+				8B676B141E5609970072D9C0 /* Frameworks */,
+				8B676B151E5609970072D9C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B676B191E5609970072D9C0 /* PBXTargetDependency */,
+			);
+			name = Basic_MathTests;
+			productName = Basic_MathTests;
+			productReference = 8B676B171E5609970072D9C0 /* Basic_MathTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B676B211E5609970072D9C0 /* Basic_MathUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B676B311E5609970072D9C0 /* Build configuration list for PBXNativeTarget "Basic_MathUITests" */;
+			buildPhases = (
+				8B676B1E1E5609970072D9C0 /* Sources */,
+				8B676B1F1E5609970072D9C0 /* Frameworks */,
+				8B676B201E5609970072D9C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B676B241E5609970072D9C0 /* PBXTargetDependency */,
+			);
+			name = Basic_MathUITests;
+			productName = Basic_MathUITests;
+			productReference = 8B676B221E5609970072D9C0 /* Basic_MathUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B676AFB1E5609970072D9C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = jf13abl;
+				TargetAttributes = {
+					8B676B021E5609970072D9C0 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					8B676B161E5609970072D9C0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8B676B021E5609970072D9C0;
+					};
+					8B676B211E5609970072D9C0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8B676B021E5609970072D9C0;
+					};
+				};
+			};
+			buildConfigurationList = 8B676AFE1E5609970072D9C0 /* Build configuration list for PBXProject "Basic_Math" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B676AFA1E5609970072D9C0;
+			productRefGroup = 8B676B041E5609970072D9C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B676B021E5609970072D9C0 /* Basic_Math */,
+				8B676B161E5609970072D9C0 /* Basic_MathTests */,
+				8B676B211E5609970072D9C0 /* Basic_MathUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B676B011E5609970072D9C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B676B111E5609970072D9C0 /* LaunchScreen.storyboard in Resources */,
+				8B676B501E560A050072D9C0 /* number8.png in Resources */,
+				8B676B521E560A050072D9C0 /* plate.png in Resources */,
+				8B676B0E1E5609970072D9C0 /* Assets.xcassets in Resources */,
+				8B676B571E560A050072D9C0 /* star_kids.png in Resources */,
+				8B676B4F1E560A050072D9C0 /* number7.png in Resources */,
+				8B676B4D1E560A050072D9C0 /* number5.png in Resources */,
+				8B676B4B1E560A050072D9C0 /* number3.png in Resources */,
+				8B676B581E560A050072D9C0 /* thumbs_up.png in Resources */,
+				8B676B491E560A050072D9C0 /* number1.png in Resources */,
+				8B676B541E560A050072D9C0 /* applex2.png in Resources */,
+				8B676B481E560A050072D9C0 /* number0.png in Resources */,
+				8B676B4C1E560A050072D9C0 /* number4.png in Resources */,
+				8B676B471E560A050072D9C0 /* apple.png in Resources */,
+				8B676B561E560A050072D9C0 /* play_again.png in Resources */,
+				8B676B551E560A050072D9C0 /* plate_white.png in Resources */,
+				8B676B531E560A050072D9C0 /* applex3.png in Resources */,
+				8B676B4A1E560A050072D9C0 /* number2.png in Resources */,
+				8B676B0C1E5609970072D9C0 /* Main.storyboard in Resources */,
+				8B676B511E560A050072D9C0 /* number9.png in Resources */,
+				8B676B4E1E560A050072D9C0 /* number6.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B676B151E5609970072D9C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B676B201E5609970072D9C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B676AFF1E5609970072D9C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B676B091E5609970072D9C0 /* ViewController.swift in Sources */,
+				8B676B071E5609970072D9C0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B676B131E5609970072D9C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B676B1C1E5609970072D9C0 /* Basic_MathTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B676B1E1E5609970072D9C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B676B271E5609970072D9C0 /* Basic_MathUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B676B191E5609970072D9C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B676B021E5609970072D9C0 /* Basic_Math */;
+			targetProxy = 8B676B181E5609970072D9C0 /* PBXContainerItemProxy */;
+		};
+		8B676B241E5609970072D9C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B676B021E5609970072D9C0 /* Basic_Math */;
+			targetProxy = 8B676B231E5609970072D9C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B676B0A1E5609970072D9C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B676B0B1E5609970072D9C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B676B0F1E5609970072D9C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B676B101E5609970072D9C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B676B291E5609970072D9C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B676B2A1E5609970072D9C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B676B2C1E5609970072D9C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Basic_Math/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JFOX.Basic-Math";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8B676B2D1E5609970072D9C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Basic_Math/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JFOX.Basic-Math";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8B676B2F1E5609970072D9C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Basic_MathTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JFOX.Basic-MathTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Basic_Math.app/Basic_Math";
+			};
+			name = Debug;
+		};
+		8B676B301E5609970072D9C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Basic_MathTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JFOX.Basic-MathTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Basic_Math.app/Basic_Math";
+			};
+			name = Release;
+		};
+		8B676B321E5609970072D9C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Basic_MathUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JFOX.Basic-MathUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Basic_Math;
+			};
+			name = Debug;
+		};
+		8B676B331E5609970072D9C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Basic_MathUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JFOX.Basic-MathUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Basic_Math;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B676AFE1E5609970072D9C0 /* Build configuration list for PBXProject "Basic_Math" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B676B291E5609970072D9C0 /* Debug */,
+				8B676B2A1E5609970072D9C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B676B2B1E5609970072D9C0 /* Build configuration list for PBXNativeTarget "Basic_Math" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B676B2C1E5609970072D9C0 /* Debug */,
+				8B676B2D1E5609970072D9C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B676B2E1E5609970072D9C0 /* Build configuration list for PBXNativeTarget "Basic_MathTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B676B2F1E5609970072D9C0 /* Debug */,
+				8B676B301E5609970072D9C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B676B311E5609970072D9C0 /* Build configuration list for PBXNativeTarget "Basic_MathUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B676B321E5609970072D9C0 /* Debug */,
+				8B676B331E5609970072D9C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B676AFB1E5609970072D9C0 /* Project object */;
+}
