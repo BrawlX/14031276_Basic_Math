@@ -23,9 +23,15 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var stars: UIView!
     
-    @IBOutlet weak var wrong: UILabel!
     
     @IBOutlet weak var correct2: UILabel!
+    
+    @IBOutlet weak var cloud: UIImageView!
+    
+    @IBOutlet weak var smiley_cloud: UIImageView!
+    
+    @IBOutlet weak var snore_cloud: UIImageView!
+    
     
     
     @IBAction func ans(sender: AnyObject) {
@@ -56,6 +62,15 @@ class ViewController: UIViewController {
         rng2 = Int(arc4random_uniform(5))
         sum = rng1 + rng2
         math.text = String(rng1) + " + " + String(rng2) + " ="
+        UIView.animateWithDuration(30, delay: 0, options: .Repeat, animations: {
+            self.cloud.center.x = 550
+            }, completion: nil)
+        UIView.animateWithDuration(40, delay: 4, options: .Repeat, animations: {
+            self.smiley_cloud.center.x = 550
+            }, completion: nil)
+        UIView.animateWithDuration(30, delay: 12, options: .Repeat, animations: {
+            self.snore_cloud.center.x = 550
+            }, completion: nil)
     }
 
     override func didReceiveMemoryWarning() {
