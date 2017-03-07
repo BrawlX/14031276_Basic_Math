@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B3F89EC1E6892C70023AFC3 /* thumbs_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B3F89EB1E6892C70023AFC3 /* thumbs_down.png */; };
 		8B676B071E5609970072D9C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B676B061E5609970072D9C0 /* AppDelegate.swift */; };
 		8B676B091E5609970072D9C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B676B081E5609970072D9C0 /* ViewController.swift */; };
 		8B676B0C1E5609970072D9C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B676B0A1E5609970072D9C0 /* Main.storyboard */; };
@@ -33,9 +34,13 @@
 		8B676B571E560A050072D9C0 /* star_kids.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B676B451E560A050072D9C0 /* star_kids.png */; };
 		8B676B581E560A050072D9C0 /* thumbs_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B676B461E560A050072D9C0 /* thumbs_up.png */; };
 		8B676B5A1E560DD10072D9C0 /* Drag_Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B676B591E560DD10072D9C0 /* Drag_Image.swift */; };
+		8B6CD8141E6EE171004C8977 /* yay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B6CD8131E6EE171004C8977 /* yay.mp3 */; };
+		8B6CD8161E6EE177004C8977 /* Wrooong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B6CD8151E6EE177004C8977 /* Wrooong.mp3 */; };
 		8BD6F14F1E5F511400108DF4 /* blue smile copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BD6F14C1E5F511400108DF4 /* blue smile copy.png */; };
 		8BD6F1501E5F511400108DF4 /* cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BD6F14D1E5F511400108DF4 /* cloud.png */; };
 		8BD6F1511E5F511400108DF4 /* snore blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BD6F14E1E5F511400108DF4 /* snore blue.png */; };
+		8BEEF3F41E6D9585001413D6 /* Additional Files in Resources */ = {isa = PBXBuildFile; fileRef = 8BEEF3F31E6D9585001413D6 /* Additional Files */; };
+		8BEEF3F61E6D962D001413D6 /* City_Of_Happy_Ones.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8BEEF3F51E6D962D001413D6 /* City_Of_Happy_Ones.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +61,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B3F89EB1E6892C70023AFC3 /* thumbs_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbs_down.png; sourceTree = "<group>"; };
 		8B676B031E5609970072D9C0 /* Basic_Math.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Basic_Math.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B676B061E5609970072D9C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B676B081E5609970072D9C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -88,9 +94,13 @@
 		8B676B451E560A050072D9C0 /* star_kids.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_kids.png; sourceTree = "<group>"; };
 		8B676B461E560A050072D9C0 /* thumbs_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbs_up.png; sourceTree = "<group>"; };
 		8B676B591E560DD10072D9C0 /* Drag_Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Drag_Image.swift; path = "Additional Classes/Drag_Image.swift"; sourceTree = SOURCE_ROOT; };
+		8B6CD8131E6EE171004C8977 /* yay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yay.mp3; sourceTree = "<group>"; };
+		8B6CD8151E6EE177004C8977 /* Wrooong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Wrooong.mp3; sourceTree = "<group>"; };
 		8BD6F14C1E5F511400108DF4 /* blue smile copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "blue smile copy.png"; path = "Clouds/blue smile copy.png"; sourceTree = "<group>"; };
 		8BD6F14D1E5F511400108DF4 /* cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cloud.png; path = Clouds/cloud.png; sourceTree = "<group>"; };
 		8BD6F14E1E5F511400108DF4 /* snore blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "snore blue.png"; path = "Clouds/snore blue.png"; sourceTree = "<group>"; };
+		8BEEF3F31E6D9585001413D6 /* Additional Files */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Additional Files"; path = "../Additional Files"; sourceTree = "<group>"; };
+		8BEEF3F51E6D962D001413D6 /* City_Of_Happy_Ones.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = City_Of_Happy_Ones.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +184,11 @@
 		8B676B341E560A050072D9C0 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				8BEEF3F31E6D9585001413D6 /* Additional Files */,
+				8B3F89EB1E6892C70023AFC3 /* thumbs_down.png */,
+				8B6CD8151E6EE177004C8977 /* Wrooong.mp3 */,
+				8B6CD8131E6EE171004C8977 /* yay.mp3 */,
+				8BEEF3F51E6D962D001413D6 /* City_Of_Happy_Ones.mp3 */,
 				8BD6F14C1E5F511400108DF4 /* blue smile copy.png */,
 				8BD6F14D1E5F511400108DF4 /* cloud.png */,
 				8BD6F14E1E5F511400108DF4 /* snore blue.png */,
@@ -313,19 +328,24 @@
 				8B676B4D1E560A050072D9C0 /* number5.png in Resources */,
 				8BD6F1511E5F511400108DF4 /* snore blue.png in Resources */,
 				8B676B4B1E560A050072D9C0 /* number3.png in Resources */,
+				8B3F89EC1E6892C70023AFC3 /* thumbs_down.png in Resources */,
 				8B676B581E560A050072D9C0 /* thumbs_up.png in Resources */,
 				8B676B491E560A050072D9C0 /* number1.png in Resources */,
 				8B676B541E560A050072D9C0 /* applex2.png in Resources */,
 				8B676B481E560A050072D9C0 /* number0.png in Resources */,
 				8B676B4C1E560A050072D9C0 /* number4.png in Resources */,
+				8B6CD8141E6EE171004C8977 /* yay.mp3 in Resources */,
 				8B676B471E560A050072D9C0 /* apple.png in Resources */,
 				8BD6F1501E5F511400108DF4 /* cloud.png in Resources */,
+				8BEEF3F61E6D962D001413D6 /* City_Of_Happy_Ones.mp3 in Resources */,
 				8B676B561E560A050072D9C0 /* play_again.png in Resources */,
+				8B6CD8161E6EE177004C8977 /* Wrooong.mp3 in Resources */,
 				8B676B551E560A050072D9C0 /* plate_white.png in Resources */,
 				8B676B531E560A050072D9C0 /* applex3.png in Resources */,
 				8B676B4A1E560A050072D9C0 /* number2.png in Resources */,
 				8B676B0C1E5609970072D9C0 /* Main.storyboard in Resources */,
 				8B676B511E560A050072D9C0 /* number9.png in Resources */,
+				8BEEF3F41E6D9585001413D6 /* Additional Files in Resources */,
 				8B676B4E1E560A050072D9C0 /* number6.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
